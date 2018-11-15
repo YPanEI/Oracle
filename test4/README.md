@@ -23,7 +23,7 @@ ALTER USER ypan_user ACCOUNT UNLOCK;
 ![](https://github.com/YPanEI/Oracle/blob/master/test4/images/1.png)
 
 #### 为用户分配权限
-```
+```sql
 GRANT "CONNECT" TO ypan_user WITH ADMIN OPTION;
 GRANT "RESOURCE" TO ypan_user WITH ADMIN OPTION;
 ALTER USER ypan_user DEFAULT ROLE "CONNECT","RESOURCE";
