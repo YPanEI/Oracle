@@ -53,8 +53,8 @@ BEGIN
       :new.TRADE_RECEIVABLE := m - :new.discount;
   end if;
 END;
-![](https://github.com/YPanEI/Oracle/blob/master/test4/images/3.png)
 ```
+![](https://github.com/YPanEI/Oracle/blob/master/test4/images/3.png)
 #### 插入初始化数据
 ```
 INSERT INTO DEPARTMENTS(DEPARTMENT_ID,DEPARTMENT_NAME) values (1,'总经办');
