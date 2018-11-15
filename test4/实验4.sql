@@ -1,4 +1,4 @@
-```
+
 /*
 实验四脚本文件:
 运行该脚本的前题条件：
@@ -838,4 +838,3 @@ WHERE a.tablespace_name = b.tablespace_name
 -rw-r----- 1 oracle root 1.5G 11月  1 14:53 /home/oracle/app/oracle/oradata/orcl/pdbtest/pdbtest_users02_1.dbf
 -rw-r----- 1 oracle root 2.5G 11月  1 14:53 /home/oracle/app/oracle/oradata/orcl/pdbtest/pdbtest_users02_2.dbf
 */
-```
