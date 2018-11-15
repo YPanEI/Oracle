@@ -12,3 +12,42 @@
 - 用户名：ypan_user
 - 学号：201610414424
 - 实验日期：2018.11.13
+
+##### 为用户分配表空间
+```
+ALTER USER ypan_user QUOTA UNLIMITED ON USERS;
+ALTER USER ypan_user QUOTA UNLIMITED ON USERS02;
+ALTER USER ypan_user QUOTA UNLIMITED ON USERS03;
+ALTER USER ypan_user ACCOUNT UNLOCK;
+```
+![](https://github.com/YPanEI/Oracle/blob/master/test4/images/1.png)
+
+##### 为用户分配权限
+```
+GRANT "CONNECT" TO ypan_user WITH ADMIN OPTION;
+GRANT "RESOURCE" TO ypan_user WITH ADMIN OPTION;
+ALTER USER ypan_user DEFAULT ROLE "CONNECT","RESOURCE";
+```
+
+##### 系统权限分配
+```
+GRANT CREATE VIEW TO ypan_user WITH ADMIN OPTION;
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
