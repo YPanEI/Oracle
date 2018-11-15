@@ -89,7 +89,8 @@ insert into products (product_name,product_type) values ('paper1','耳机');
 insert into products (product_name,product_type) values ('paper2','耳机');
 insert into products (product_name,product_type) values ('paper3','耳机');
 ```
-
+结果：
+![](https://github.com/YPanEI/Oracle/blob/master/test4/images/6.png)
 
 
 
