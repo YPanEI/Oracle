@@ -9,7 +9,7 @@
 - 触发器的应用：维护ORDER_DETAILS的数据时（insert,delete,update）要同步更新ORDERS表订单应收货款ORDERS.Trade_Receivable的值。
 ### 实验相关：
 - 实验人：杨洋
-- 用户名：ypan_user
+- 用户名：ypan_user 角色ypan_view
 - 学号：201610414424
 - 实验日期：2018.11.13
 
