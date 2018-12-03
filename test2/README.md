@@ -11,6 +11,7 @@ Oracle有一个开发者角色resource，可以创建表、过程、触发器等
 - 姓名：杨洋
 - 实验日期：2018.10.30
 - 具体见分析文档和查询语句
+- 用户ypan_user 角色ypan_view
 
 ## 实验参考步骤
 - 第1步：以system登录到pdborcl，创建角色ypan_view和用户ypan_user，并授权和分配空间：
